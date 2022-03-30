@@ -1,0 +1,87 @@
+[2021-08-24 13:18:08] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Exceptions\\Handler.php(58): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\app\\Exceptions\\Handler.php(38): Laravel\\Lumen\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(119): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(67): Laravel\\Lumen\\Application->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(55): Laravel\\Lumen\\Application->handleShutdown()
+#8 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 {main}
+"} 
+[2021-08-24 13:18:08] laravel.ERROR: Uncaught ReflectionException: Class path.storage does not exist in C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php:873
+Stack trace:
+#0 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(754): Illuminate\Container\Container->build('path.storage')
+#2 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(692): Illuminate\Container\Container->resolve('path.storage', Array)
+#3 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\lumen-framework\src\Application.php(300): Illuminate\Container\Container->make('path.storage', Array)
+#4 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(119): Laravel\Lumen\Applica {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class path.storage does not exist in C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:873
+Stack trace:
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('path.storage')
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Container\\Container->resolve('path.storage', Array)
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('path.storage', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(119): Laravel\\Lumen\\Applica at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:875)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 13:20:08] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Exceptions\\Handler.php(58): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\app\\Exceptions\\Handler.php(38): Laravel\\Lumen\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(119): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(67): Laravel\\Lumen\\Application->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(55): Laravel\\Lumen\\Application->handleShutdown()
+#8 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 {main}
+"} 
+[2021-08-24 13:20:08] laravel.ERROR: Uncaught ReflectionException: Class path.storage does not exist in C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php:873
+Stack trace:
+#0 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(754): Illuminate\Container\Container->build('path.storage')
+#2 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(692): Illuminate\Container\Container->resolve('path.storage', Array)
+#3 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\lumen-framework\src\Application.php(300): Illuminate\Container\Container->make('path.storage', Array)
+#4 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(119): Laravel\Lumen\Applica {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class path.storage does not exist in C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:873
+Stack trace:
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('path.storage')
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Container\\Container->resolve('path.storage', Array)
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('path.storage', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(119): Laravel\\Lumen\\Applica at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:875)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 13:28:01] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Exceptions\\Handler.php(58): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\app\\Exceptions\\Handler.php(38): Laravel\\Lumen\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(119): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(67): Laravel\\Lumen\\Application->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(55): Laravel\\Lumen\\Application->handleShutdown()
+#8 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 {main}
+"} 
+[2021-08-24 13:28:01] laravel.ERROR: Uncaught ReflectionException: Class path.storage does not exist in C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php:873
+Stack trace:
+#0 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(754): Illuminate\Container\Container->build('path.storage')
+#2 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Container\Container.php(692): Illuminate\Container\Container->resolve('path.storage', Array)
+#3 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\lumen-framework\src\Application.php(300): Illuminate\Container\Container->make('path.storage', Array)
+#4 C:\Users\Formation Dev PHP\Desktop\heimdallAPI\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(119): Laravel\Lumen\Applica {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class path.storage does not exist in C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:873
+Stack trace:
+#0 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): ReflectionClass->__construct('path.storage')
+#1 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('path.storage')
+#2 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Container\\Container->resolve('path.storage', Array)
+#3 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('path.storage', Array)
+#4 C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(119): Laravel\\Lumen\\Applica at C:\\Users\\Formation Dev PHP\\Desktop\\heimdallAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:875)
+[stacktrace]
+#0 {main}
+"} 
