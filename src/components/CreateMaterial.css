@@ -1,0 +1,40 @@
+.from{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5em;
+box-shadow: 10px 5px 5px #0006;
+border-radius: 5%;
+}
+
+@media (max-width: 1250px) { 
+    .tdCreated {
+        display: none;
+    }
+
+    .tdUpdate {
+        display: none;
+    }
+
+    .tdId {
+        display: none;
+    }
+    #editTab{
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    #deleteTab {
+        width: 2.5em;
+        height: 2.5em;
+    }
+}
+
+@media (max-width: 410px) { 
+.table th {
+    font-weight: 141;
+  }
+  .table td {
+    font-weight: 141;
+  }
+}
